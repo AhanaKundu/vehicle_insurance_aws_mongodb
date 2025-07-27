@@ -30,6 +30,10 @@ load_dotenv()  # loads from .env
 #mongodb_url = os.getenv("MONGODB_URL")
 #print("monggggooo",mongodb_url)  # check if loaded correctly
 
+# print(os.environ.get("AWS_ACCESS_KEY_ID"))
+
+# print(os.environ.get("AWS_SECRET_ACCESS_KEY"))
+
 # --------------------------------------------------------------------------------
 
 from src.pipline.training_pipeline import TrainPipeline
